@@ -1,0 +1,14 @@
+let ph = Math.floor(Math.random()*15)
+
+if (ph > 9) {
+  console.log("Basico para krl")
+} else if (ph > 7) {
+  console.log("Basico")
+} else if (ph < 5) {
+  console.log (" Acido para krl")
+} else if (ph < 7) {
+  console.log ("Acido")
+} else {
+  console.log("neutro")
+}
+console.log (ph)
