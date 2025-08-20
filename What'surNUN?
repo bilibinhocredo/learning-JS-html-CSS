@@ -1,0 +1,8 @@
+const numero$ = //O seu numero
+let adivinha = Math.floor(Math.random()* //O numero de repetiões) + 1
+while (adivinha !== numero$) {
+  console.log("não é essa o meu numero " + adivinha)
+  console.log("==================================================================")
+  adivinha = Math.floor(Math.random()* //o numero de repetiçoes) + 1
+}
+console.log("SIM é esse o meu numero " + numero$);
