@@ -1,0 +1,34 @@
+//sistema de pedra, papel, tesoura em JS
+
+//variaveis
+
+let jogador = 1
+let computer = Math.floor(Math.random()*3)
+let pedra = 0
+let papel = 1
+let tesoura = 2
+//sistema de escolhas
+
+pedra = "pedra"
+papel = "papel"
+tesoura = "tesoura"
+let escolhas = ["pedra", "papel", "tesoura"]
+console.log ("jogador escolheu:      " +escolhas[jogador])
+console.log ("computador escolheu:   " +escolhas[computer])
+console.log ("")
+//logica geral
+
+if (jogador === 0 && computer === 2 || 
+    jogador === 1 && computer === 0 || 
+    jogador === 2 && computer === 1) {
+console.log("vc venceu venceu uma vez na vida!")
+} 
+else if (jogador === computer) {
+  console.log("empate porra vai de novo!")
+} 
+else if (jogador === undefined) {
+  console.log("Joga POR FAVORRR") 
+} 
+else {
+  console.log("o pc ganhou de vc imundo")
+}
