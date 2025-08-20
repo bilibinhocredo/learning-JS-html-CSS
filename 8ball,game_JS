@@ -1,0 +1,43 @@
+console.log("Pergunta====================================")
+let pergunta = ("ela não está me traindo?")
+console.log (pergunta)
+console.log ("resposta===================================")
+
+let bola8 = Math.floor(Math.random()*15)
+
+if (bola8 = 0) {
+  console.log("nem fodendendo mané...")
+} else if (bola8 = 1) {
+  console.log("PQP não")
+} else if (bola8 = 2) {
+console.log("NÃOOO POR FAVOR")
+} else if (bola8 = 3) {
+  console.log("não cara não faz isso")
+} else if (bola8 = 4) {
+  console.log ("não cara")
+} else if (bola8 = 5) {
+  console.log ("simplesmente não")
+} else if (bola8 = 6) {
+  console.log ("nada a declarar")
+} else if (bola8 = 7) {
+  console.log ("vc já sabe a resposta")
+} else if (bola8 = 8) {
+  console.log (" talvez...")
+} else if (bola8 = 9) {
+  console.log ("acho que sim")
+} else if (bola8 = 10) {
+  console.log ("sim, somente")
+} else if (bola8 = 10) {
+  console.log ("sim!")
+} else if (bola8 = 11) {
+  console.log ("Claro!")
+} else if (bola8 = 12) {
+  console.log("com certeza!")
+} else if (bola8 = 13) {
+  console.log("LOGICO!")
+} else if (bola8 = 14) {
+  console.log ("SIMMM É OBVIO!")
+} else if (bola8 = 15) {
+  console.log ("vc já sabe a resposta")
+}
+console.log(bola8)
